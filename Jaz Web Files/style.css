@@ -1,0 +1,192 @@
+
+
+
+
+
+/*============= HOME SECTION =============*/
+.navbar{
+  letter-spacing: .1rem;
+  font-size: .9rem;
+  background: rgba(0,0,0,0.3)!important;
+
+}
+.navbar-brand img{
+  height: 1.8rem;
+}
+
+
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  padding-top: .5rem;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+	color:#ff4f61;
+}
+
+.home-inner{
+	background-image: url(img/peppaPigShoes.png); 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+
+.caption{
+	width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,700&display=swap');
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.caption h1{
+
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 3.8rem;
+	letter-spacing: .3rem
+	
+	
+}
+
+
+
+.caption h3{
+	font-weight: 100;
+	color: black;
+	letter-spacing: .2rem;
+	text-transform: lowercase;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.btn-large{
+
+	background-color: #d47db9;
+	border-width: medium;
+  border-radius: 10;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+
+}
+
+/*============= SERVICES =============*/
+
+.title{
+
+	padding-top: 3rem ; 
+
+	margin-bottom: 2rem;
+	
+
+}
+
+.title h1{
+
+	color: #3E5C76;
+	font-weight: 700;
+}
+
+.title h3{
+	color: #3E5C76;
+	font-weight: 400;
+}
+
+.steps h3{
+	color: #748CAB;
+}
+
+.steps p{
+	color: #0D1321;
+	font-weight: 100;
+}
+
+.steps svg.svg-inline--fa{
+	color: #F9C6D7;
+}
+
+.steps img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+/*============= ABOUT =============*/
+.jumbotron h1{
+
+	font-weight: 700;
+	letter-spacing: .1rem;
+	color: #87BCDE;
+	margin-bottom: 2rem;
+}
+
+.jumbotron h3{
+	font-weight: 100;
+	color: #87BCDE;
+	letter-spacing: .2rem;
+}
+
+.jumbotron p{
+	color: #0F0326;
+}
+
+.jumbotron img{
+	width: 34rem;
+	height: 30rem;
+}
+
+
+/*============= CONTACT =============*/
+.cont h1{
+	font-weight: 700;
+	letter-spacing: .1rem;
+	margin: 1rem, 1rem;
+}
+
+.cont h3{
+	font-weight: 100;
+	margin: .8rem, .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
