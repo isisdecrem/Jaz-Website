@@ -34,6 +34,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 .caption{
 	width: 100%;
@@ -59,7 +60,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 3.8rem;
-	letter-spacing: .3rem
+	letter-spacing: .3rem;
 	
 	
 }
@@ -126,35 +127,73 @@ body {
 }
 
 /*============= ABOUT =============*/
-.jumbotron h1{
+.jumbotron{
 
-	font-weight: 700;
-	letter-spacing: .1rem;
-	color: #87BCDE;
+    background-color: #E3E2DF !important; 
+}
+.jumbotron h1{
+    font-family: 'Lato', sans-serif;
+	font-weight: 700; 
+	
+	color: #EE4C7C;
 	margin-bottom: 2rem;
 }
 
 .jumbotron h3{
-	font-weight: 100;
-	color: #87BCDE;
-	letter-spacing: .2rem;
+    font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #9A1750;
+	letter-spacing: .1rem;
 }
 
 .jumbotron p{
-	color: #0F0326;
+    font-family: 'Lato', sans-serif;
+	color: #5D001E; 
+    font-weight: 100; 
+    font-size: 1.2rem; 
+    margin-bottom: 2rem; 
 }
 
 .jumbotron img{
-	width: 34rem;
+	width: 40rem;
 	height: 30rem;
 }
 
+/*============= WAITLIST =============*/
+.waitlistInfo H1{
+    color: #F9C6D7;
+    margin-top: 3rem; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700; 
+    margin-bottom: 1rem;
+}
+
+.waitlistInfo h3{
+    color: #3E5C76;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    font-size: 1.5rem; 
+    font-weight: 100; 
+    font-family: 'Raleway', sans-serif; 
+    margin-bottom: 1rem; 
+}
+.table-info{
+    color: white; 
+}
+.waitlistTable{
+    margin-left: 1rem; 
+    width: 97%;
+    font-size: 1.2rem; 
+    margin-bottom: 5rem; 
+    
+    
+}
 
 /*============= CONTACT =============*/
 .cont h1{
 	font-weight: 700;
 	letter-spacing: .1rem;
-	margin: 1rem, 1rem;
+	margin-bottom:.1rem;
 }
 
 .cont h3{
@@ -165,7 +204,17 @@ body {
 
 .form-group{
 	margin-left: 1rem; 
+    margin-bottom: 2rem;
+    font-family: 'Raleway' , sans-serif; 
 }
+
+.subBut{
+    margin-bottom: 3rem;
+}
+
+
+
+
 
 
 
